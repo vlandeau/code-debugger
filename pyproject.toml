@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "test-langchain-tools"
+version = "0.1.0"
+description = ""
+authors = ["victorlandeau <vlandeau@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_langchain_tools"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.2.3"
+langchain-mistralai = "^0.1.8"
+langchain-openai = "^0.1.8"
+pytest = "^8.2.2"
+rich = "^13.7.1"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
